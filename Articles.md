@@ -1,4 +1,4 @@
-# This file will contains links to the articles realted to Devops technologies.
+# This file will contains links to the articles realted to Devops.
 
 
 
