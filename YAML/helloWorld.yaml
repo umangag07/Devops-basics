@@ -1,0 +1,29 @@
+"hello": "world"
+1 : "one"
+
+---
+
+countries:
+  - India
+  - Australia
+  - Germany
+
+
+--- 
+
+skills:
+  - programming languages: [python,java,c++]
+  - databases: [mongoDB,postgresql,mysql]
+
+...
+
+keyvalue pairs : {07 : dhoni, 45 : rohit sharma}
+  
+
+  
+
+
+
+
+
+

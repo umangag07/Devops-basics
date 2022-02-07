@@ -1,0 +1,62 @@
+#list
+
+fruitsInListFormat: 
+  - apple
+  - banana
+  - orange
+fruits: [apple,banana,orange]  #other format to write the list
+
+
+#map [DATATYPE: !!map]
+
+student : max  #key value pairs means map
+marks:         #nested maps
+  maths: 98
+  physics: 95
+  chemistry: 91
+  computer: 99
+  english: 98
+
+marksInotherForm : !!map {maths: 98 ,physics: 95,chemistry: 91,computer: 99,english: 98}  #other way of writing nested maps
+
+---
+#array
+
+skills: [python,java,c++,Typecript]
+ 
+#array wit list in block structure
+
+another skills:  
+  - programming languages: [python,java,c++]
+  - databases: [mongoDB,postgresql,mysql] 
+
+#pairs when same key has two or more different values [DATATYPE: !!pairs]
+
+pairExample: !!pairs
+  - marks: 90
+  - marks: 89
+  - marks: 93
+
+pairExample2: !!pairs [ marks: 90,marks: 89,marks: 93]
+
+
+#dictionary !!omap
+
+students: &studentAnchor
+  - student1:
+    - name: zack 
+    - age: 21
+    - email: zack@gmail.com 
+  - student2:
+    - name: sam 
+    - age: 25
+    - email: sam@gmail.com 
+
+#resuing the properties in yaml using the anchors
+
+school: 
+  - name: st james 
+  - student: *studentAnchor   #reusing the student dictionary
+
+
+

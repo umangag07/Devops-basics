@@ -1,0 +1,39 @@
+#Different data types in yaml
+
+string: "one"
+secondtype: one
+thridtype: 'one'
+
+
+number: 12
+secondNumber: 12.9
+
+
+#Specifying the type of number
+
+intNumber: !!int 0
+floatNumber: !!float 12.5
+binaryNumber: !!binary 0b11001
+octalNumber: !!int 06574
+hexNumber: !!int 0x13
+exponentNumber : 6.022E23
+floatNumberInfinite: !!float .inf
+not a number : .nan
+
+
+#boolean value
+falseValue : No #and also wriiten as n,N,false,FALSE,False
+TrueValue : yes #and also wriiten as y,Y,YES,yes,True,,TRUE
+
+
+#null
+
+something: !!null Null #and also written as null NULL ~
+~: here key is null
+
+
+#date and time
+
+date : !!timestamp 2001-07-31
+time: !!timestamp 2001-07-31T12:00:00  #utc time
+timeInIndianFormat : 2001-07-31T12:00:00 +5:30  #specified the time in india by providing utc+5:30
