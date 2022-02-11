@@ -22,4 +22,98 @@ The below command with remove the alias created above
 unalias ls
 ```
 
-### 5. ``
+### 5. `cd`
+It's full form is `change directory` and as names says it is used for changing the directory or the folder in very common terms trhough terminal.
+
+```
+1. To go into next directory use it like this `cd nameOfFolder`
+Example: cd photos
+
+2. To go into previous directory
+cd .. 
+and 
+cd ../..  #to go two folders back and so on
+
+3. By typing just `cd` it will take us to home folder
+
+```
+
+### 6 `cp`
+This command is use to copy file and folders. To use it just type the soruce file/ foler and then destination file/folder
+
+```
+cp source-file.txt destination-file.txt
+```
+To copy directories use the (-r) recursive flag
+```
+cp -r source-folder/ destination-folder/
+```
+### 7 `rm`
+This command is use to remove the files and the folders. It is a bit difficult to recover the files/folder deleted in this way.
+
+```
+rm file-to-remove.txt
+```
+To remove directories use the (-r) recursive flag
+```
+rm -r folder-to-remove/
+```
+### 8 `mv`
+This command is use to move file/directories or rename it.
+
+1. To rename the file
+```
+mv old-file.txt renamed-file.txt
+```
+2. To move the file
+```
+mv file.txt directory-name
+```
+3. To move all the file maching some pattern. Below example will move all the file with extension .js to javascript-files.
+```
+mv *.js /javascript-files 
+```
+4. You can move multiple file simultaneously.
+```
+mv first-file.txt second-file.txt /directory
+```
+
+### 9 `touch`
+This command create the new empty file in the current directory.
+
+```
+touch newfile.txt
+```
+> Note: To create mutiple files at same time give names after one space.
+
+### 10 `cat`
+
+Concatenate(cat) command is used for various purpose like creating a file with content in it, viewing the contents, concatenation of content, coping the contents.
+
+1. Create a file.
+```
+cat > file-name
+```
+3. Read the contents of file.
+```
+cat file-name
+```
+3. Copy the contents of file.
+```
+cat file-whose-content-is-to-be-copied > destination-file-name
+```
+4. Append the contens of one file to another
+```
+cat `fileName-whose-content-is-to-be-appended` >> `fileName-in-which-it-is-to-be-appended`
+```
+
+### 11. `mkdir`
+This command is use to create the directory.
+
+```
+mkdir diretory-name
+```
+To create directory inside already existing directory give the (-p) parent tag.
+```
+mkdir -p parentDirectory/childDirectory
+```
