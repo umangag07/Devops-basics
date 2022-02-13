@@ -128,3 +128,21 @@ For itself even
 ```
 man man
 ```
+
+### 13 `chmod` 
+This command lets us change the permission or mode of the file.<br>
+Three basic permissions are:
+1. Read (r)
+2. Write (w)
+3. Execute (x)
+To make the file executable type the below command
+```
+chmod +x file-name
+
+```
+
+### 14 `exit`
+This is the very simple command as the name suggest by this command we can end the shell session and will automatically close the terminal.
+```
+exit
+```
