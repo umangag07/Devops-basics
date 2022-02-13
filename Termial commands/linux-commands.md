@@ -117,3 +117,14 @@ To create directory inside already existing directory give the (-p) parent tag.
 ```
 mkdir -p parentDirectory/childDirectory
 ```
+
+### 12 `man`
+This commands shows the manual page for any command in linux even for itself.
+
+```
+man ls
+```
+For itself even
+```
+man man
+```
