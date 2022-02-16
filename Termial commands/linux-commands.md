@@ -146,3 +146,38 @@ This is the very simple command as the name suggest by this command we can end t
 ```
 exit
 ```
+### 15 `sudo`
+This command let's us execute commands with the superuser priveledge or as a root user and it stands for `superuser do`. It is used where system files need to be changed and when this command will get executed it will ask for the password first as it will be changing the file in the users home directory. It is generally used for intsalling softwares or updating system files.
+
+```
+sudo apt-get update 
+```
+
+### 16 `echo`
+This command is used to display the text defined with this command in the terminal like console.log() from Javascript.
+
+```
+echo "Hello World"
+```
+
+### 17 `ps`
+This command will show you the processes that are running in the current shell session. It prints the information like process id, TTY(TeleTYpewriter),time and command name.
+
+```
+ps
+```
+
+### 18 `kill`
+This command is used when some process becomes unresponsive and this command can be used from the terminal by using the process ID or the binary name of the program.
+
+```
+kill chrome
+```
+
+### 19 `ping`
+This command is used to test the network connectivity. It would be used to request the IP-address or the domain.
+
+```
+ping google.com 
+```
+
