@@ -180,4 +180,9 @@ This command is used to test the network connectivity. It would be used to reque
 ```
 ping google.com 
 ```
+### 20 `htop`
+This is an interactive process viewer command that helps us manage the machines resources directly fromt the terminal.
+```
+htop
+```
 
